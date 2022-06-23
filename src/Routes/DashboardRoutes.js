@@ -10,8 +10,9 @@ const DashboardRoutes = () => {
     return (
         <PrivateLayout>
             <Routes>
-                <Route path="/dashboard" element={<Dashboard courses={courses}/>}/>
-                <Route path="/dashboard/courses" element={<AdminCourses />}/>
+                <Route path="/home" element={<Dashboard courses={courses}/>}/>
+                <Route path="/courses" element={<AdminCourses />}/>
+                <Route path="/" exact element={<PrivateLayout/>}/>
             </Routes>
         </PrivateLayout>
     );

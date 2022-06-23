@@ -7,7 +7,7 @@ const AdminSidebar = () => {
         <div>
             <ul className="nav navbar-nav side-nav" style={{ height: "100vh" }}>
                 <li>
-                    <Link to="/dashboard">
+                    <Link to="/dashboard/home">
                         <i className="fa fa-fw fa-dashboard"/> داشبورد
                     </Link>
                 </li>

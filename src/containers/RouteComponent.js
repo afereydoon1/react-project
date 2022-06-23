@@ -35,7 +35,7 @@ const RouteComponent = () => {
             path: "/dashboard",
             element: <DashboardRoutes/>,
             children: [
-                {path: "dashboard", element: <Dashboard/>},
+                {path: "home", element: <Dashboard/>},
                 {path: "courses", element: <AdminCourses/>},
             ]
         }

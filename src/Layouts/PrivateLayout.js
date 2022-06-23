@@ -4,6 +4,8 @@ import Helmet from "react-helmet";
 import AdminTopNav from "../components/Admin/AdminTopNav";
 import AdminSidebar from "../components/Admin/AdminSidebar";
 import {useSelector} from "react-redux";
+import "bootstrap/dist/css/bootstrap.rtl.css";
+import "font-awesome/css/font-awesome.min.css";
 
 
 const PrivateLayout = ({children}) => {
